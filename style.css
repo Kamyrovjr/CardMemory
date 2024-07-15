@@ -1,0 +1,38 @@
+* {
+    padding: 0 auto;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(230, 230, 28)
+}
+
+.content {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pokemon-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 250px;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: #42aaff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pokemon-text {
+    font-size: 12px;
+}
+
